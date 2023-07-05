@@ -1,6 +1,6 @@
 Desafio - Site criado sem comunicação
 
-Participantes: Eric, Bruno e Guilherme
+Participantes: Eric, Bruno, Guilherme e Nayane
 Começo: 09/07/2023
 Fim: 09/08/2023
 
