@@ -2,7 +2,7 @@ Desafio - Site criado sem comunicação
 
 Participantes: Eric, Bruno, Guilherme e Nayane
 Começo: 09/07/2023
-Fim: 09/08/2023
+Fim: 16/08/2023
 
 Nome da empresa: ScaleSquad
 Slogan da empresa: Do fogo à disciplica: moldando dragões com maestria
