@@ -69,6 +69,8 @@
 
 .his-texto h2 {
     margin: 50px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     width: 1552px;
     height: 310px;
 
@@ -79,6 +81,6 @@
 }
 
 .his-texto p {
-    font-size: 30px;
+    font-size: 15px;
     color: #BD8D4C;
 }
