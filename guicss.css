@@ -2,4 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
+}
+
+@font-face {
+    font-family: 'theCenturion';
+    src: url('gui-fonts/TheCenturion.ttf');
+  }
+
+.nh-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    
+    background-image: url(gui-imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+}
+
+.nh-container img{
+    margin-bottom: -3px;
+}
+
+.nh-titulo{
+    width: 150px;
+    line-height: 215px;
+    font-size: 100px;
+    font-family: 'TheCenturion';
+    
+}
+
+.nh-titulo h1 {
+    color: #DCDEDF;
+}
+
+.nh-titulo h1 span {
+    color: #BD8D4C;
 }
