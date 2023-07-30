@@ -39,8 +39,6 @@
     line-height: 215px;
     font-size: 100px;
     font-family: 'TheCenturion';
-    
-    
 }
 
 .nh-titulo h1 {
@@ -57,30 +55,40 @@
 
 
 .his-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     background-color: #0F0F14;
     color: #FFFFFF;
+    line-height: 60px; 
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    line-height: 60px;
-    
+.his-texto {
+    width: 50%;
+}
+
+@media (max-width: 1572px)
+{
+    .his-texto{
+        width: 100%;
+    }
 }
 
 .his-texto h2 {
-    margin: 50px;
-    /* margin-left: 200px;
-    margin-right: 200px; */
-    width: 1552px;
-    height: 310px;
-
+    margin: 40px;
     font-family: 'MedievalSharp';
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .his-texto p {
+    margin-top: -30px;
     font-size: 15px;
     color: #BD8D4C;
 }
+
+
+/* ========================================================================================================== */
+
