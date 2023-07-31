@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 .nh-container img{
-    margin-bottom: -3px;
+    margin-bottom: -5px;
 }
 
 .nh-titulo{
@@ -65,7 +65,7 @@
 }
 
 .his-texto {
-    width: 50%;
+    width: 65%;
 }
 
 @media (max-width: 1572px)
@@ -92,3 +92,20 @@
 
 /* ========================================================================================================== */
 
+
+.stats-container{
+    background-image: url(gui-imgs/bg2.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.blur {
+    background: rgb(15, 15, 20, 0.2);
+    backdrop-filter: blur(5px); 
+    height: 100vh;
+    width: 100%;
+  }
