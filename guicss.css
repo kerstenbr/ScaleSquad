@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 
@@ -96,28 +96,46 @@
 }
 
 .blur {
-    background: rgb(15, 15, 20, 0.2);
+    background: rgba(9, 9, 38, 0.319);
     backdrop-filter: blur(5px); 
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.stats{
+.stats {
     width: 308px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .dragoes-domados{
     width: 207px;
-    
+}
+
+.dragoes-domados h2{
+    color: #FFFFFF;
+    font-family: 'MedievalSharp';
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .planetas-salvos{
     width: 207px;
+}
+
+.planetas-salvos h2{
+    color: #FFFFFF;
+    font-family: 'MedievalSharp';
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .hr-stats{
