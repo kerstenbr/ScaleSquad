@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+/* font-family: 'MedievalSharp', cursive; */
+
+@font-face {
+    font-family: 'TheCenturion';
+    src: url('gui-fonts/TheCenturion.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+
+/* ========================================================================================================== */
+
+
+.nh-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    
+    background-image: url(gui-imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+}
+
+.nh-container img{
+    margin-bottom: -5px;
+}
+
+.nh-titulo{
+    width: 460px;
+    height: 500px;
+    
+}
+
+
+/* ========================================================================================================== */
+
+
+.his-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #0F0F14;
+    color: #FFFFFF;
+    line-height: 60px; 
+}
+
+.his-texto {
+    width: 65%;
+}
+
+@media (max-width: 1572px)
+{
+    .his-texto{
+        width: 100%;
+    }
+}
+
+.his-texto h2 {
+    margin: 40px;
+    font-family: 'MedievalSharp';
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.his-texto p {
+    margin-top: -30px;
+    font-size: 15px;
+    color: #BD8D4C;
+}
+
+
+/* ========================================================================================================== */
+
+
+.stats-container{
+    background-image: url(gui-imgs/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blur {
+    background: rgba(9, 9, 38, 0.319);
+    backdrop-filter: blur(5px); 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats {
+    width: 308px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.dragoes-domados{
+    width: 207px;
+}
+
+.dragoes-domados h2{
+    color: #FFFFFF;
+    font-family: 'MedievalSharp';
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.planetas-salvos{
+    width: 207px;
+}
+
+.planetas-salvos h2{
+    color: #FFFFFF;
+    font-family: 'MedievalSharp';
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.hr-stats{
+    width: 308px;
+    height: 6px;
+    background-color: #BD8D4C;
+    border: none;
+}
