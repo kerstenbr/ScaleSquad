@@ -29,9 +29,9 @@
     justify-content: center;
 }
 
-.nh-container img{
+/* .nh-container img{
     margin-bottom: -5px;
-}
+} */
 
 .nh-titulo{
     width: 460px;
@@ -73,7 +73,7 @@
 }
 
 .his-texto p {
-    margin-top: -30px;
+    margin-top: -5px;
     font-size: 15px;
     color: #BD8D4C;
 }
